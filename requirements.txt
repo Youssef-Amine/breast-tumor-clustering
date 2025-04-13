@@ -1,8 +1,5 @@
-Flask
-gunicorn
-numpy
-pillow
-pydantic
-scikit-learn
-joblib
 pandas
+numpy
+seaborn
+sklearn
+feature_engine
