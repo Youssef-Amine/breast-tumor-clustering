@@ -30,7 +30,21 @@ breast-tumor-clustering/
 
 ---
 
-## 📚 Références
+##  Results
+Clusters identified
+Cluster 1: groups observations with low PC1 values and moderate PC2 values, i.e. smaller, more regular tumors.
+Cluster 0 : high PC2 values and centered around an average PC1 values, normal size and irregular tumors.
+Cluster 2: strongly to the right on PC1, therefore associated with larger, more regular tumors, according to the important PCA variables.
+
+Conclusion:
+Clustering into 3 groups seems relevant. Each cluster has potential biological significance in relation to tumor morphology and regularity.
+These clusters can be crossed with the diagnosis features to explore which type of tumor is more likely to be a cancer.
+Most tumors from Cluster 1 are Benign and most tumors from Cluster 2 tumors are Malignant. 
+Smaller and regular tumors are benign and larger but regular tumor are more like to be a cancer. 
+Size highly determines if a tumor is a cancer but the regularity no because Cluster 0 where tumors are the most irregular contains as many benign as malignant tumors. 
+
+
+## 📚 References
 
 - https://www.kaggle.com/datasets/mdimraniqbal/breastcancer
 
